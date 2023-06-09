@@ -1,77 +1,60 @@
 landscape:
   - category:
-    name: SBOM SPDX Adopter
-    subcategories:
-      - subcategory:
-        name: General
+    name: Specification
         items:
           - item:
-            name: Adobe (Adopter)
-            homepage_url: https://www.adobe.com/
-            logo: adobe.svg
-            crunchbase: https://www.crunchbase.com/organization/adobe
+            name: SPDX &reg;
+            homepage_url: https://spdx.dev/
+            logo: left-logo.svg
           - item:
-            name: Anchore (Adopter)
-            homepage_url: https://anchore.com/
-            logo: anchore.svg
-            crunchbase: https://www.crunchbase.com/organization/anchore-inc
+            name: CycloneDX
+            homepage_url: https://cyclonedx.org/
+            logo: https://cyclonedx.org/theme/assets/images/layout/logo-white.svg
           - item:
-            name: Apiiro
-            homepage_url: https://www.apiiro.com/
-            logo: apiiro.svg
-            crunchbase: https://www.crunchbase.com/organization/apiiro-ltd
-          - item:
-            name: Arm
-            homepage_url: https://www.arm.com/
-            logo: arm.svg
-            crunchbase: https://www.crunchbase.com/organization/arm 
-          - item:
-            name: Cisco
-            homepage_url: https://www.cisco.com/
-            logo: cisco.svg
-            crunchbase: https://www.crunchbase.com/organization/cisco
-          - item:
-            name: Dynatrace
-            homepage_url: https://www.dynatrace.com/
-            logo: dynatrace.svg
-            crunchbase: https://www.crunchbase.com/organization/dynatrace-software            
+            name: SWID
+            homepage_url: https://www.iso.org/standard/65666.html?_fsi=CsoLlZOP&_fsi=Rc3Oqbqo
+            logo: 
   - category:
-    name: SBOM SPDX Tools
+    name: Tools
     subcategories:
       - subcategory:
-        name: SBOM SPDX Tools
-        items:
-          - item:
-            name: FOSSLight
-            homepage_url: https://fosslight.org/
-            repo_url: https://github.com/fosslight/fosslight
-            logo: fosslight.svg
-            twitter: https://twitter.com/LGUS
-            crunchbase: https://www.crunchbase.com/organization/lg          
-          - item:
-            name: OSS Review Toolkit
-            homepage_url: https://oss-review-toolkit.org/
-            repo_url: https://github.com/oss-review-toolkit/ort
-            logo: oss-review-toolkit.svg
-            twitter: https://twitter.com/linuxfoundation
-            crunchbase: https://www.crunchbase.com/organization/linux-foundation
-          - item:
-            name: REUSE
-            homepage_url: https://reuse.software/
-            repo_url: https://git.fsfe.org/reuse/tool
-            logo: reuse.svg
-            twitter: https://twitter.com/fsfe
-            crunchbase: https://www.crunchbase.com/organization/free-software-foundation-europe
-          - item:
-            name: Syft
-            homepage_url: https://anchore.com/opensource/
-            repo_url: https://github.com/anchore/syft
-            logo: syft.svg
-            twitter: https://twitter.com/anchore
-            crunchbase: https://www.crunchbase.com/organization/anchore-inc
-          - item:
-            name: Tern
-            homepage_url: https://github.com/tern-tools/tern
-            repo_url: https://github.com/tern-tools/tern
-            logo: tern.svg
-            crunchbase: https://www.crunchbase.com/organization/vmware
+        name: SPDX Tools
+        subcategories:
+          - subcategory:
+            name: Generator
+            items:
+              - item:
+                name: Syft
+                homepage_url: https://anchore.com/opensource/
+                repo_url: https://github.com/anchore/syft
+                logo: syft.svg
+                twitter: https://twitter.com/anchore
+              - item:
+                name: Tern
+                homepage_url: https://github.com/tern-tools/tern
+                repo_url: https://github.com/tern-tools/tern
+                logo: tern.svg
+          - subcategory:
+            name: Converter
+          - subcategory:
+            name: Management
+              - item:
+                name: FOSSLight
+                homepage_url: https://fosslight.org/
+                repo_url: https://github.com/fosslight/fosslight
+                logo: fosslight.svg
+                twitter: https://twitter.com/LGUS
+              - item:
+                name: OSS Review Toolkit
+                homepage_url: https://oss-review-toolkit.org/
+                repo_url: https://github.com/oss-review-toolkit/ort
+                logo: oss-review-toolkit.svg
+                twitter: https://twitter.com/linuxfoundation
+          - subcategory:
+            name: Helper  
+              - item:
+                name: REUSE
+                homepage_url: https://reuse.software/
+                repo_url: https://git.fsfe.org/reuse/tool
+                logo: reuse.svg
+                twitter: https://twitter.com/fsfe
